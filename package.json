@@ -1,0 +1,13 @@
+{
+  "author": "Morley Tatro <mtatro@figure.com>",
+  "scripts": {
+    "dev": "webpack serve -c webpack.config.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.49.9",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
