@@ -1,7 +1,8 @@
+import { createRoot } from 'react-dom/client';
+
+import App from './App';
 import './styles.scss';
 
-const p = document.createElement('p');
-p.innerText = 'Hello World!';
-p.className = 'some-class';
+const root = createRoot(document.querySelector('#app'));
 
-document.querySelector('#app').appendChild(p);
+root.render(<App />);
